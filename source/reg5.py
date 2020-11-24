@@ -47,6 +47,16 @@ ice_creams = ['vanilla', 'chocolate', 'butter pecan', 'rocky road']
 print(ice_creams[:-2])
 print(ice_creams[-2:])
 print(ice_creams[-4:-1])
+print(ice_creams)
+print(ice_creams[-3:-2])
+
+# list assignment
+ice_creams[1] = 'strawberry'
+print(ice_creams)
+
+ice_creams[-2] = 'peach'
+print(ice_creams)
+
 
 
 
