@@ -50,11 +50,16 @@ print(holidays2)
 
 for hol in holidays2:
     print(hol)
+    print('This holidays is: ' + hol)
 
 print(' -- '.join(holidays2))
 print(' | '.join(holidays2))
 print('; '.join(holidays2))
 
-    
-    
+print(float('4.0') + 5)
+
+print('Jane' + 'Doe')
+print('Jane ' + 'Doe')
+
+
     
