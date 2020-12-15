@@ -1,5 +1,8 @@
 
 # Dictionary is a collection of pair of key and value
+# The following is a dictionary of lists
+# Pandas data frame is essentially a dictionary of lists
+# This is also used in column based databases such as Kdb
 menu = {
         'items': ['Pasta', 'Pizza', 'Garlic knots'],
         'description': ['with sauce', 'slices', 'pieces'],
