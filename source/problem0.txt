@@ -1,0 +1,34 @@
+
+Please use your own examples for the problems below. Please don't copy paste the
+answer from the web for any problem. If you do and aren't able to explain your
+logic or steps, you'll be awarded zero for the problem.
+
+The problem set has 130 points although it's a test for 100 points. The teachers
+will be strict with grades. Make sure you attempt as many problems as you can.
+
+
+0. 10 points | Give an example of a list and list indexing.
+
+1. 10 points | Give an example of a dictionary and dictionary indexing.
+
+2. 20 points | Collect data and create a spreadsheet with three columns with
+real life examples of at least a string, an int, and a float column. For
+example, here are some ideas:
+
+The name, age, weight, and height of your family members
+
+The name, zip code, population, and average temperature of the cities you have
+travelled
+
+The name, price per pint and the number of times you had your favorite flavors
+of ice cream.
+
+3. 30 points | Convert the spreadsheet into a dictionary of lists like we did
+in class and print it using a for loop the way you like it.
+
+4. 30 points | Convert the spreadsheet into a list of dictionaries like we did
+in class and print it using a for loop the way you like it.
+
+5. 20 points | What does the range function do? Give an example of a for loop
+using the range function.
+
