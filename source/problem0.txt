@@ -11,8 +11,8 @@ will be strict with grades. Make sure you attempt as many problems as you can.
 
 1. 10 points | Give an example of a dictionary and dictionary indexing.
 
-2. 20 points | Collect data and create a spreadsheet with three columns with
-real life examples of at least a string, an int, and a float column. For
+2. 20 points | Collect data and create a spreadsheet with at least three columns
+with real life examples of at least a string, an int, and a float column. For
 example, here are some ideas:
 
 The name, age, weight, and height of your family members
