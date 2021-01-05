@@ -13,7 +13,7 @@ sb.set_style('darkgrid')
 https://ourworldindata.org/coronavirus-source-data
 """
 
-full_data = pd.read_csv(r'/home/gopi/Python_202011/data/corona/ourworldindata/full_data_20200824.csv')
+full_data = pd.read_csv(r'/home/gopi/Python_202011/data/corona/ourworldindata/owid-covid-data_20210104.csv')
 print(full_data.shape)
 print(full_data.head(10))
 print(full_data.tail())
@@ -56,3 +56,10 @@ US.loc[:,'death_rate_percentage'] = (US.total_deaths / US.total_cases) * 100
 plt.figure()
 US[['death_rate_percentage']].plot(title='Death rate percentage from Corona')
 
+US = full_data.loc[full_data.location == 'United States',:]
+China = full_data.loc[full_data.location == 'China',:]
+
+full_data.loc[full_data.location == 'United States', ['date', 'location', 'total_cases', 'total_deaths']].tail(4)
+full_data.loc[full_data.location == 'China', ['date', 'location', 'total_cases', 'total_deaths']].tail(3)
+full_data.loc[full_data.location == 'India', ['date', 'location', 'total_cases', 'total_deaths']].tail(3)
+full_data.loc[full_data.location == 'France', ['date', 'location', 'total_cases', 'total_deaths']].tail(3)
