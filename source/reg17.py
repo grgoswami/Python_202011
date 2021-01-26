@@ -1,6 +1,7 @@
 
 def Fibonacci0(num):
     """
+    The following is called the docstring of the function.
     Parameters
     ----------
     num : int
@@ -24,4 +25,5 @@ def Fibonacci0(num):
 Fibonacci0(3)
 Fibonacci0(5)
 Fibonacci0(10)
+Fibonacci0(100)
         
