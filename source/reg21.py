@@ -1,6 +1,9 @@
 
 # Here minimum_length is a keyword argument
 # Here password is a positional argument
+# The positional arguments are mandatory
+# The keyword arguments are optional, they take their default value
+# if you don't specify in the function call
 def password_checker(password, minimum_length=6, maximum_length=20):
     if len(password) < minimum_length:
         print('Your password is too short; it should have at least {0} characters'.format(minimum_length))
@@ -27,6 +30,7 @@ password_checker('NewYorkCity')
 
 password_checker('Ne$#1', minimum_length=5)
 password_checker('Ne$#1')
+password_checker('New$#1', maximum_length=10)
 
 
 
