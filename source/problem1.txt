@@ -1,0 +1,74 @@
+
+Please use your own examples for the problems below. Please don't copy paste the
+answer from the web for any problem. If you do and aren't able to explain your
+logic or steps, you'll be awarded zero for the problem.
+
+The problem set has 130 points although it's a test for 100 points. The teachers
+will be strict with grades. Make sure you attempt as many problems as you can.
+
+
+0. 10 points | Give an example of a function that returns a float. You may
+pick any define any meaningful function of your choice.
+
+1. 20 points | Give an example of a function that returns a list. You may
+pick any define any meaningful function of your choice.
+
+2. 20 points | Give an example of a function that returns a dictionary. You may
+pick any define any meaningful function of your choice.
+
+3. 30 points | Write the body of the following function and test it with
+three examples:
+
+def analyze_text_0(text):
+    """
+    Parameters
+    ----------
+    text : str
+        This is the text that needs to analyzed.
+
+    Returns
+    -------
+    A dictionary where the (key, value) pair are as follows:
+        key: the length of a word in the text
+        value: the number of words of this length that are in the text
+    """
+    
+4. 30 points | Write the body of the following function and test it with
+three examples:
+
+def weighted_average(values, weights):
+    """
+    Parameters
+    ----------
+    values : list of floats or ints
+        The values for which we need the weighted average.
+    weights : list of floats or ints
+        The weights associated with the values.
+
+    Returns
+    -------
+    The weighted average of the values weighted by the weights.
+    Please use a website like the one below to learn more on 
+    weighted average:
+        
+        https://www.mathsisfun.com/data/weighted-mean.html
+    """
+    
+5. 40 points | Write the body of the following function and test it with
+three examples:
+
+def coin_flips(num_flips, num_people):
+    """
+    Parameters
+    ----------
+    num_flips : int
+        The number of flips of one coin by one person.
+    num_people : int
+        The number of people flipping coins.
+
+    Returns
+    -------
+    A list of number of heads that each person got divided by num_flips.
+    """
+    
+    
