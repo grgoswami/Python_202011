@@ -1,0 +1,6 @@
+
+0. Find a python package to download the daily data for Amazon (ticker=AMZN)
+for the year 2021, i.e., Jan 01, 2021 to today (from Yahoo Finance).
+    
+Reference: https://www.datacamp.com/community/tutorials/finance-python-trading
+

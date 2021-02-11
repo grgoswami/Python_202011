@@ -1,0 +1,8 @@
+
+https://devguide.python.org/setup/
+
+https://www.vim.org/
+
+https://www.gnu.org/software/emacs/
+
+
