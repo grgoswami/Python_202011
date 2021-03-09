@@ -1,0 +1,12 @@
+
+1. Given a movie, we can tell what genre it is in.
+
+2. Given a movie, the release date or year.
+
+3. What genre of movies that Disney has made the most of?
+
+4. Up to the time or year of release, what genre was most popular?
+
+5. How many movies each year or each decade?
+
+6. Given a year, how many movies of each genre were made?
